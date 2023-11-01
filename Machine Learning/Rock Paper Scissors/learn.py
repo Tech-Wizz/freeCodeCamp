@@ -48,3 +48,44 @@ for episode in range(EPISODES):
       break  #reached Goal
 print(Q)
 print(f"Average reward: {sum(rewards)/len(rewards)}:")
+
+
+
+#__________
+
+import gym
+from gym import spaces
+import random
+
+class RockPaperScissorsEnv(gym.Env):
+    def __init__(self):
+        super(RockPaperScissorsEnv, self).__init__()
+
+        self.action_space = spaces.Discrete(3)  # Rock, Paper, Scissors
+        self.observation_space = spaces.Discrete(3)  # Winning, Losing, Tying
+
+    def reset(self):
+        return 0  # Start with the default state
+
+    def step(self, action):
+        opponent_action = random.randint(0, 2)  # Random opponent's move
+
+        # Determine the outcome
+        # 0 - Rock, 1 - Paper, 2 - Scissors
+        if action == opponent_action:
+            reward = 0  # Tie
+        elif (action - 1) % 3 == opponent_action:  # If (action - 1) mod 3 equals opponent's action, player wins
+            reward = 1  # Player wins
+        else:
+            reward = -1  # Opponent wins
+
+        return opponent_action, reward, True, {}  # Return opponent's action, reward, done, info
+
+# Example usage:
+env = RockPaperScissorsEnv()
+observation = env.reset()
+
+for _ in range(10):  # Play 10 rounds
+    action = env.action_space.sample()  # Replace this line with your AI's action selection
+    opponent_action, reward, done, info = env.step(action)
+    print(f"Player's action: {action}, Opponent's action: {opponent_action}, Reward: {reward}")
