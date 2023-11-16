@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "e:\\Documents\\Coding\\C#\\CsharpProjects\\TestProject\\TestProject.csproj": {}
+  },
+  "projects": {
+    "e:\\Documents\\Coding\\C#\\CsharpProjects\\TestProject\\TestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "e:\\Documents\\Coding\\C#\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectName": "TestProject",
+        "projectPath": "e:\\Documents\\Coding\\C#\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "packagesPath": "C:\\Users\\kruiz\\.nuget\\packages\\",
+        "outputPath": "e:\\Documents\\Coding\\C#\\CsharpProjects\\TestProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kruiz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
