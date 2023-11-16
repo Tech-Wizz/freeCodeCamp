@@ -1,0 +1,14 @@
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\bin\Debug\net7.0\Starter.exe
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\bin\Debug\net7.0\Starter.deps.json
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\bin\Debug\net7.0\Starter.runtimeconfig.json
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\bin\Debug\net7.0\Starter.dll
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\bin\Debug\net7.0\Starter.pdb
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\obj\Debug\net7.0\Starter.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\obj\Debug\net7.0\Starter.AssemblyInfoInputs.cache
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\obj\Debug\net7.0\Starter.AssemblyInfo.cs
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\obj\Debug\net7.0\Starter.csproj.CoreCompileInputs.cache
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\obj\Debug\net7.0\Starter.dll
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\obj\Debug\net7.0\refint\Starter.dll
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\obj\Debug\net7.0\Starter.pdb
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\obj\Debug\net7.0\Starter.genruntimeconfig.cache
+E:\Documents\Coding\C#\CsharpProjects\Challenge-project-foreach-if-array-CSharp-main\ChallengeProject\Starter\obj\Debug\net7.0\ref\Starter.dll
