@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +6,11 @@
     <link rel="stylesheet" href="styles.css">
     <title>Your Survey Form</title>
 </head>
-<body>
 
+<!-- Adds Course Logo -->
+<link rel="icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon.ico" type="image/png">
+
+<body>
     <header>
         <h1 id="title">Survey Form</h1>
     </header>
@@ -19,43 +21,143 @@
         <form id="survey-form">
 
             <!-- Name Input -->
-            <label for="name" id="name-label">Name:</label>
-            <input type="text" id="name" placeholder="Enter your name" required>
+            <div class="form-group">
+                <label id = "name-label">
+                    <p for="name" id="name-label">Name:</p>
+                </label>
+                <label id = "#name-label">
+                    <input class="fillin" type="text" id="name" placeholder="Enter your name" required>
+                </label>
+            </div>
 
             <!-- Email Input -->
-            <label for="email" id="email-label">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email" required>
+            <div class="form-group">
+                <label id = "email-label">
+                    <p for="email" id="email-label">Email:</p>
+                </label>
+                <label id = "#email-label">
+                <input class="fillin" type="email" id="email" placeholder="Enter your email" required>
+                </label>
+            </div>
 
             <!-- Number Input -->
-            <label for="number" id="number-label">Number:</label>
-            <input type="number" id="number" placeholder="Enter a number" min="1" max="100" required>
+            <div class="form-group">
+                <label id = "number-label">
+                    <p for="number" id="number-label">What is your favorite number?</p>
+                </label>
+                <label id = "#number-label">
+                    <input  class="fillin" type="number" id="number" placeholder="Enter a number" min="1" max="100" required>
+                </label>
+            </div>
 
             <!-- Dropdown -->
-            <label for="dropdown">Select an option:</label>
-            <select id="dropdown">
-                <option value="option1">Option 1</option>
-                <option value="option2">Option 2</option>
-            </select>
+            <div class="form-group">
+                <p>What team are you?
+                    <span class="clue">(Choose one)</span>
+                </p>
+                <select class="fillin" id="dropdown">
+                    <option disabled hidden selected>Select One</option>
+                    <option value="option1">Bobcat</option>
+                    <option value="option2">Griz</option>
+                </select>
+            </div>
 
             <!-- Radio Buttons -->
-            <label>Choose one:</label>
-            <input type="radio" name="radio-group" value="option1"> Option 1
-            <input type="radio" name="radio-group" value="option2"> Option 2
+            <div class="form-group">
+                <p>What is you gender?
+                    <span class="clue">(Choose one)</span>
+                </p>
+                <label class="">
+                    <input
+                        name="user-recommend"
+                        value="not-sure"
+                        type="radio"
+                        class="input-radio"
+                    />Male
+                </label>
+                
+                <label>
+                    <input
+                        name="user-recommend"
+                        value="not-sure"
+                        type="radio"
+                        class="input-radio"
+                    />Female
+                </label>
+            </div>
 
             <!-- Checkboxes -->
-            <label>Choose multiple:</label>
-            <input type="checkbox" value="checkbox1"> Checkbox 1
-            <input type="checkbox" value="checkbox2"> Checkbox 2
+            <div class="form-group">
+                <p>What food do you like?
+                    <span class="clue">(Choose multiple)</span>
+                </p>
+                <label>
+                    <input
+                        name="prefer"
+                        value="front-end-projects"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />Burgers
+                </label>
+
+                <label>
+                    <input
+                        name="prefer"
+                        value="front-end-projects"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />Pizza
+                </label>
+
+                <label>
+                    <input
+                        name="prefer"
+                        value="front-end-projects"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />Taco
+                </label>
+
+                <label>
+                    <input
+                        name="prefer"
+                        value="front-end-projects"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />Noodles
+                </label>
+
+                <label>
+                    <input
+                        name="prefer"
+                        value="front-end-projects"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />Hot Dog
+                </label>
+
+                <label>
+                    <input
+                        name="prefer"
+                        value="front-end-projects"
+                        type="checkbox"
+                        class="input-checkbox"
+                    />Corn Dog
+                </label>
+            </div>
 
             <!-- Textarea -->
-            <label for="comments">Additional comments:</label>
-            <textarea id="comments" placeholder="Enter your comments"></textarea>
+            <div class="form-group">
+                <p for="comments">Additional comments:</p>
+                <textarea class = "fillin" id="comments" placeholder="Enter your comments"></textarea>
+            </div>
 
             <!-- Submit Button -->
-            <button type="submit" id="submit">Submit</button>
+            <div class="form-group">
+                <button type="submit" id="submit">Submit</button>
+            </div>
 
         </form>
     </section>
-
 </body>
 </html>

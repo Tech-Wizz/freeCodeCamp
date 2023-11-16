@@ -1,8 +1,7 @@
 /* Custom properties/variables  */
 :root {
     --main-white: #f0f0f0;
-    --main-green: #00580c;
-    --main-lightgreen: #00e81f;
+    --main-red: #be3144;
     --main-blue: #45567d;
     --main-gray: #303841;
   }
@@ -115,7 +114,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-green);
+    background: var(--main-red);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
   }
@@ -162,12 +161,7 @@
     font-size: 3rem;
     font-weight: 200;
     font-style: italic;
-    color: var(--main-lightgreen);
-  }
-
-  .profile-image {
-    height: same-as-width;
-    width: 25%;
+    color: var(--main-red);
   }
   
   /* Projects section */
@@ -250,7 +244,7 @@
   }
   
   .btn-show-all:hover {
-    background: var(--main-green);
+    background: var(--main-red);
   }
   
   .btn-show-all:hover > i {
@@ -318,7 +312,7 @@
     justify-content: space-evenly;
     padding: 2rem;
     background: var(--main-gray);
-    border-top: 4px solid var(--main-green);
+    border-top: 4px solid var(--main-red);
   }
   
   footer > p {
